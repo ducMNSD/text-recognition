@@ -4,21 +4,7 @@ This software implements the Convolutional Recurrent Neural Network (CRNN), a co
 # Paper
 https://arxiv.org/pdf/1507.05717.pdf
 
-# Citation
-@InProceedings{Jaderberg14c,
-  author       = "Max Jaderberg and Karen Simonyan and Andrea Vedaldi and Andrew Zisserman",
-  title        = "Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition",
-  booktitle    = "Workshop on Deep Learning, NIPS",
-  year         = "2014",
-}
-                
-@Article{Jaderberg16,
-  author       = "Max Jaderberg and Karen Simonyan and Andrea Vedaldi and Andrew Zisserman",
-  title        = "Reading Text in the Wild with Convolutional Neural Networks",
-  journal      = "International Journal of Computer Vision",
-  number       = "1",
-  volume       = "116",
-  pages        = "1--20",
-  month        = "jan",
-  year         = "2016",
-}
+# Dataset
+* Synth90k: 
+  * **Introduction:** The Synth90k dataset contains 9 million synthetic text instance images from a set of 90k common English words. Words are rendered onto natural images with random transformations and effects, such as random fonts, colors, blur, and noises. Synth90k dataset can emulate the distribution of scene text images and can be used instead of real-world data to train data-hungry deep learning algorithms. Besides, every image is annotated with a ground-truth word.  
+  * **Link:** [Synth90k-download](http://www.robots.ox.ac.uk/~vgg/data/text/)
