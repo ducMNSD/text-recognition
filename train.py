@@ -16,7 +16,7 @@ import os
 import utils
 import dataset
 
-import models.crnn as crnn
+import models.VGG_BiLSTM_CTC as crnn
 
 # Alphabet = '0123456789abcdefghijklmnopqrstuvwxyz\';:.-! )"$\\#%,@&/?([]{}+-=*^|' # 65
 Alphabet = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\';:.-! )"$\\#%,@&/?([]{}+-=*^|' # 91
