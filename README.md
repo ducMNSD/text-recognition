@@ -8,13 +8,13 @@ https://arxiv.org/pdf/1507.05717.pdf
 | demo images | VGG-BiLSTM-CTC | VGG-BiLSTM-CTC(case-sensitive) |
 | ---         |     ---      |          --- |
 | <img src="./demo_images/demo_1.png" width="300">     |   available   |    |
-| ![](demo_images/demo_2.png)   |    professional   |       |
-| ![](demo_images/demo_3.png)   |   londen   |     |
-| ![](demo_images/demo_4.png)     |    greenstead    |     |
-| ![](demo_images/demo_5.png)   |   weather   |     |
-| ![](demo_images/demo_6.png)       |    please    |     |
-| ![](demo_images/demo_7.png)    |   research   |   |
-| ![](demo_images/demo_8.png)      |    grred    |      |
+| <img src="./demo_images/demo_2.png" width="300">   |    professional   |       |
+| <img src="./demo_images/demo_3.png" width="300">  |   londen   |     |
+| <img src="./demo_images/demo_4.png" width="300">     |    greenstead    |     |
+| <img src="./demo_images/demo_5.png" width="300">   |   weather   |     |
+| <img src="./demo_images/demo_6.png" width="300">       |    please    |     |
+| <img src="./demo_images/demo_7.png" width="300">   |   research   |   |
+| <img src="./demo_images/demo_8.png" width="300" height="100"> |    grred    |      |
 
 # Dataset
 * Synth90k: 
