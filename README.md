@@ -7,7 +7,7 @@ https://arxiv.org/pdf/1507.05717.pdf
 # Demo
 | demo images | VGG-BiLSTM-CTC | VGG-BiLSTM-CTC(case-sensitive) |
 | ---         |     ---      |          --- |
-| ![](demo_images/demo_1.png){:height="50%" width="50%"}    |   available   |    |
+| <img src="./demo_images/demo_1.png" width="300">     |   available   |    |
 | ![](demo_images/demo_2.png)   |    professional   |       |
 | ![](demo_images/demo_3.png)   |   londen   |     |
 | ![](demo_images/demo_4.png)     |    greenstead    |     |
