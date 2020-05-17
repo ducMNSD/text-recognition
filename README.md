@@ -1,5 +1,5 @@
 # Text recognition 
-Pytorch for image-based sequence recognition tasks, such as scene text recognition and OCR.
+Pytorch implementation for image-based sequence recognition tasks, such as scene text recognition and OCR.
 
 # Paper
 https://arxiv.org/pdf/1507.05717.pdf
