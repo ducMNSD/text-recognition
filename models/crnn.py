@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import torch.nn as nn
+from torchsummary import summary
 
 
 class BidirectionalLSTM(nn.Module):
@@ -53,19 +54,19 @@ class CRNN(nn.Module):
             else:
                 cnn.add_module('relu{0}'.format(i), nn.ReLU(True))
 
-        convRelu(0)
-        cnn.add_module('pooling{0}'.format(0), nn.MaxPool2d(2, 2))  # 64x16x64
-        convRelu(1)
-        cnn.add_module('pooling{0}'.format(1), nn.MaxPool2d(2, 2))  # 128x8x32
-        convRelu(2, True)
-        convRelu(3)
+        convRelu(0)                                                 # 64x32x100
+        cnn.add_module('pooling{0}'.format(0), nn.MaxPool2d(2, 2))  # 64x16x50
+        convRelu(1)                                                 # 128x16x50
+        cnn.add_module('pooling{0}'.format(1), nn.MaxPool2d(2, 2))  # 128x8x25
+        convRelu(2, True)                                           # 256x8x25
+        convRelu(3)                                                 # 256x8x25
         cnn.add_module('pooling{0}'.format(2),
-                       nn.MaxPool2d((2, 2), (2, 1), (0, 1)))  # 256x4x16
-        convRelu(4, True)
-        convRelu(5)
+                       nn.MaxPool2d((2, 2), (2, 1), (0, 1)))        # 256x4x26
+        convRelu(4, True)                                           # 512x4x26
+        convRelu(5)                                                 # 512x4x26
         cnn.add_module('pooling{0}'.format(3),
-                       nn.MaxPool2d((2, 2), (2, 1), (0, 1)))  # 512x2x16
-        convRelu(6, True)  # 512x1x16
+                       nn.MaxPool2d((2, 2), (2, 1), (0, 1)))        # 512x2x27
+        convRelu(6, True)                                           # 512x1x26
 
         self.cnn = cnn
         self.rnn = nn.Sequential(
@@ -73,14 +74,18 @@ class CRNN(nn.Module):
             BidirectionalLSTM(hidden_state, hidden_state, nclass))
 
     def forward(self, input):
-        # feature_extraction
+        # feature extraction
         conv = self.cnn(input)
         b, c, h, w = conv.size()
         assert h == 1, "the height of conv must be 1"
         conv = conv.squeeze(2)
         conv = conv.permute(2, 0, 1)  # [w, b, c]
 
-        # rnn features
+        # sequence modelings
         output = self.rnn(conv)
 
         return output
+    
+if __name__ == "__main__":
+    model = CRNN(32, 1, 66, 256)
+    summary(model, (1, 32, 100))
