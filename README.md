@@ -7,14 +7,14 @@ https://arxiv.org/pdf/1507.05717.pdf
 # Demo
 | demo images | VGG-BiLSTM-CTC | VGG-BiLSTM-CTC(case-sensitive) |
 | ---         |     ---      |          --- |
-| <img src="./demo_images/demo_1.png" width="300">     |   available   |    |
-| <img src="./demo_images/demo_2.png" width="300">   |    professional   |       |
-| <img src="./demo_images/demo_3.png" width="300">  |   londen   |     |
-| <img src="./demo_images/demo_4.png" width="300">     |    greenstead    |     |
-| <img src="./demo_images/demo_5.png" width="300">   |   weather   |     |
-| <img src="./demo_images/demo_6.png" width="300">       |    please    |     |
-| <img src="./demo_images/demo_7.png" width="300">   |   research   |   |
-| <img src="./demo_images/demo_8.png" width="300" height="100"> |    grred    |      |
+| <img src="./demo_images/demo_1.png" width="300">     |   available   |  Availabel  |
+| <img src="./demo_images/demo_2.png" width="300">   |    professional   |  professional |
+| <img src="./demo_images/demo_3.png" width="300">  |   londen   |   Fonden  |
+| <img src="./demo_images/demo_4.png" width="300">     |    greenstead    |  Greenstead   |
+| <img src="./demo_images/demo_5.png" width="300">   |   weather   |   WEATHER  |
+| <img src="./demo_images/demo_6.png" width="300" height="100">       |    future    |   Future  |
+| <img src="./demo_images/demo_7.png" width="300">   |   research   | Research  |
+| <img src="./demo_images/demo_8.png" width="300" height="100"> |    grred    | Gredl |
 
 # Dataset
 * Synth90k: 
