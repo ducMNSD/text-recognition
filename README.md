@@ -7,7 +7,7 @@ https://arxiv.org/pdf/1507.05717.pdf
 # Demo
 | demo images | VGG-BiLSTM-CTC | VGG-BiLSTM-CTC(case-sensitive) |
 | ---         |     ---      |          --- |
-| <img src="./demo_images/demo_1.png" width="300">     |   available   |  Availabel  |
+| <img src="./demo_images/demo_1.png" width="300">     |   available   |  Available |
 | <img src="./demo_images/demo_2.png" width="300">   |    professional   |  professional |
 | <img src="./demo_images/demo_3.png" width="300">  |   londen   |   Fonden  |
 | <img src="./demo_images/demo_4.png" width="300">     |    greenstead    |  Greenstead   |
