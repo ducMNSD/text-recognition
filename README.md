@@ -43,5 +43,5 @@ https://arxiv.org/pdf/1507.05717.pdf
 
 # Dependence
 * lmdb
-* editdistance
+* FLask
 * torch-summary
