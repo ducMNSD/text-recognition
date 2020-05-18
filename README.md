@@ -16,7 +16,27 @@ https://arxiv.org/pdf/1507.05717.pdf
 | <img src="./demo_images/demo_7.png" width="300">   |   research   | Research  |
 | <img src="./demo_images/demo_8.png" width="300" height="100"> |    grred    | Gredl |
 
-# Dataset
+# Performance
+| models            | dataset    | samples | accuracy | editing distance |
+|-------------------|------------|---------|----------|------------------|
+| VGG-BiLSTM-CTC    | ICDAR 2013 | 1015    | 0.7438   | 0.4512           |
+|                   | ICDAR 2015 | 2077    | 0.4935   | 1.2335           |
+|                   | IIIT5k     | 3000    | 0.746    | 0.5493           |
+|                   | SVT        | 647     | 0.6831   | 0.5493           |
+|                   | Synth90k   | 891924  | 0.72     | 0.6146           |
+| VGG-BiLSTM-CTC    | ICDAR 2013 | 1015    | 0.327    | 2.905            |
+| (case-sensitive)  | ICDAR 2015 | 2077    | 0.4265   | 1.6364           |
+|                   | IIIT5k     | 3000    | 0.378    | 2.495            |
+|                   | SVT        | 647     | 0.4      | 2.3323           |
+|                   | Synth90k   | 891924  | 0.696    | 0.7671           |
+| ResNet-BiLSTM-CTC | ICDAR 2013 | 1015    |          |                  |
+| (case-sensitive)  | ICDAR 2015 | 2077    |          |                  |
+|                   | IIIT5k     | 3000    |          |                  |
+|                   | SVT        | 647     |          |                  |
+|                   | Synth90k   | 891924  |          |                  |
+
+
+# Training
 * Synth90k: 
   * **Introduction:** The Synth90k dataset contains 9 million synthetic text instance images from a set of 90k common English words. Words are rendered onto natural images with random transformations and effects, such as random fonts, colors, blur, and noises. Synth90k dataset can emulate the distribution of scene text images and can be used instead of real-world data to train data-hungry deep learning algorithms. Besides, every image is annotated with a ground-truth word.  
   * **Link:** [Synth90k-download](http://www.robots.ox.ac.uk/~vgg/data/text/)
