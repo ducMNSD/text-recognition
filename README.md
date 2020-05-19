@@ -29,11 +29,11 @@ https://arxiv.org/pdf/1507.05717.pdf
 |                   | IIIT5k     | 3000    | 0.378    | 2.495            |
 |                   | SVT        | 647     | 0.4      | 2.3323           |
 |                   | Synth90k   | 891924  | 0.696    | 0.7671           |
-| ResNet-BiLSTM-CTC | ICDAR 2013 | 1015    |          |                  |
-| (case-sensitive)  | ICDAR 2015 | 2077    |          |                  |
-|                   | IIIT5k     | 3000    |          |                  |
-|                   | SVT        | 647     |          |                  |
-|                   | Synth90k   | 891924  |          |                  |
+| ResNet-BiLSTM-CTC | ICDAR 2013 | 1015    |0.3448    |2.8916            |
+| (case-sensitive)  | ICDAR 2015 | 2077    |0.4535    |1.546             |
+|                   | IIIT5k     | 3000    | 0.39     |2.439             |
+|                   | SVT        | 647     | 0.4281   | 2.27             |
+|                   | Synth90k   | 891924  | 0.7188   | 0.6859           |
 
 
 # Training
