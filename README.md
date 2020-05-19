@@ -40,6 +40,8 @@ https://arxiv.org/pdf/1507.05717.pdf
 * Synth90k: 
   * **Introduction:** The Synth90k dataset contains 9 million synthetic text instance images from a set of 90k common English words. Words are rendered onto natural images with random transformations and effects, such as random fonts, colors, blur, and noises. Synth90k dataset can emulate the distribution of scene text images and can be used instead of real-world data to train data-hungry deep learning algorithms. Besides, every image is annotated with a ground-truth word.  
   * **Link:** [Synth90k-download](http://www.robots.ox.ac.uk/~vgg/data/text/)
+# Acknowledgements
+This implementation has been based on this [repository](https://github.com/meijieru/crnn.pytorch)
 
 # Dependence
 * lmdb
