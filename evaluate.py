@@ -100,4 +100,7 @@ def evaluate(net, dataset):
     print("Number of positive prediction: ", count)
     print("Editing distance on dataset: ", editing_distance)
     print("Accuracy on dataset: ", accuracy)
-        
+
+
+if __name__ == "__main__":
+    evaluate(model, test_dataset)
