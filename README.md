@@ -47,3 +47,4 @@ This implementation has been based on this [repository](https://github.com/meiji
 * lmdb
 * FLask
 * torch-summary
+* CRAFT
