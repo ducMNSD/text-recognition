@@ -1,8 +1,6 @@
 # Text recognition 
 Pytorch implementation for image-based sequence recognition tasks, such as scene text recognition and OCR.
 
-# Paper
-https://arxiv.org/pdf/1507.05717.pdf
 
 # Demo
 | demo images | VGG-BiLSTM-CTC | VGG-BiLSTM-CTC(case-sensitive) |
@@ -56,3 +54,6 @@ This implementation has been based on this [repository](https://github.com/meiji
 * FLask
 * torch-summary
 * CRAFT
+
+# Reference
+[1] B. Shi, X. Bai, and C. Yao. An end-to-end trainable neural network for image-based sequence recognition and its application to scene text recognition. In TPAMI, volume 39, pages2298–2304. 2017.
