@@ -54,3 +54,9 @@ This implementation has been based on this [repository](https://github.com/meiji
 * FLask
 * torch-summary
 * CRAFT
+
+# Paper
+[An End-to-End Trainable Neural Network for Image-based Sequence
+Recognition and Its Application to Scene Text Recognition](https://arxiv.org/pdf/1507.05717.pdf) <br />
+[Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) <br />
+[Character Region Awareness for Text Detection](https://arxiv.org/pdf/1904.01941v1.pdf) <br />
