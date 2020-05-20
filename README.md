@@ -54,6 +54,3 @@ This implementation has been based on this [repository](https://github.com/meiji
 * FLask
 * torch-summary
 * CRAFT
-
-# Reference
-[1] B. Shi, X. Bai, and C. Yao. An end-to-end trainable neural network for image-based sequence recognition and its application to scene text recognition. In TPAMI, volume 39, pages2298–2304. 2017.
